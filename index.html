@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<title>Responsive Design</title>
+	</head>
+	<body class="bg-white text-gray-800 antialiased">
+		<header class="px-5 lg:px-16 py-6 flex justify-between items-center">
+			<div class="flex items-center">
+				<img class="w-32 h-auto" src="/images/logo.svg" alt="logo" />
+				<nav class="hidden lg:flex ml-10 items-center space-x-6">
+					<a href="#" class="text-base">Features</a>
+					<a href="#" class="text-base">Company</a>
+					<a href="#" class="text-base">Careers</a>
+					<a href="#" class="text-base">About</a>
+				</nav>
+			</div>
+			<div class="flex items-center">
+				<button class="text-base mr-5">Login</button>
+				<button class="border-2 border-gray-800 px-4 py-2 rounded-lg">
+					Register
+				</button>
+			</div>
+		</header>
+		<main class="px-5 lg:px-16 py-10">
+			<div class="grid lg:grid-cols-2 gap-10 items-center">
+				<div>
+					<h1 class="font-bold text-3xl lg:text-5xl mb-6">Make remote work</h1>
+					<p class="text-lg lg:text-xl mb-6">
+						Get your team in sync, no matter your location. Streamline
+						processes, create team rituals, and watch productivity soar.
+					</p>
+					<button class="bg-black text-white px-6 py-3 rounded-lg">
+						Learn more
+					</button>
+				</div>
+				<div class="hidden lg:block w-[70%]">
+					<img src="/images/image-hero-desktop.png" alt="hero" />
+				</div>
+				<div class="lg:hidden">
+					<img src="/images/image-hero-mobile.png" alt="hero" />
+				</div>
+			</div>
+		</main>
+		<footer class="px-5 lg:px-16 py-6 text-center">
+			Challenge by
+			<a
+				href="https://www.frontendmentor.io?ref=challenge"
+				target="_blank"
+				class="text-blue-500"
+				>Frontend Mentor</a
+			>. Coded by
+			<a
+				href="https://www.jessegauthier.dev"
+				target="_blank"
+				class="text-blue-500"
+				>Jesse Gauthier</a
+			>.
+		</footer>
+	</body>
+</html>
